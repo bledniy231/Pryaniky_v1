@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pryaniky_v1.Contract\Pryaniky_v1.Contract.csproj" />
+    <ProjectReference Include="..\Pryaniky_v1.DAL\Pryaniky_v1.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
